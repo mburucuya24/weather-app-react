@@ -25,7 +25,7 @@ function App() {
       </div>
       <p>
         <a
-          href="https://github.com/mburucuya24/vanilla-weather-app"
+          href="https://github.com/mburucuya24/weather-app-react"
           target="_blank"
         >
           Open-source code
