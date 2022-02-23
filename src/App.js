@@ -2,7 +2,6 @@ import React from "react";
 import Cities from "./Cities.js";
 import Weather from "./Weather.js";
 import Forecast from "./Forecast.js";
-import axios from "axios";
 import "./App.css";
 
 function App() {
