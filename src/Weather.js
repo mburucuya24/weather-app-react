@@ -19,11 +19,11 @@ export default function Weather() {
             <h4>
               <span className="temperature" id="temperature"></span>
               <span className="units">
-                <a href="/" id="celsius-link" className="active">
+                <a href="foo" id="celsius-link" className="active">
                   °C
                 </a>{" "}
                 |
-                <a href="/" id="fahrenheit-link">
+                <a href="foo" id="fahrenheit-link">
                   °F
                 </a>
               </span>

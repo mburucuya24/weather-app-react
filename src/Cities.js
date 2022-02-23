@@ -8,27 +8,27 @@ export default function Cities() {
       <div className="subhead">
         <div className="row">
           <div className="col">
-            <a href="/" id="warsaw-city">
+            <a href="foo" id="warsaw-city">
               Warsaw
             </a>
           </div>
           <div className="col">
-            <a href="/" id="asuncion-city">
+            <a href="foo" id="asuncion-city">
               Asunción
             </a>
           </div>
           <div className="col">
-            <a href="/" id="seoul-city">
+            <a href="foo" id="seoul-city">
               Seoul
             </a>
           </div>
           <div className="col">
-            <a href="/" id="seattle-city">
+            <a href="foo" id="seattle-city">
               Seattle
             </a>
           </div>
           <div className="col">
-            <a href="/" id="washingtondc-city">
+            <a href="foo" id="washingtondc-city">
               Washington, DC
             </a>
           </div>
