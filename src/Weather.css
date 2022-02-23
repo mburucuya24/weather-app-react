@@ -1,0 +1,32 @@
+.col-6 {
+  text-align: center;
+}
+.temperature {
+  font-size: 40px;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -15px;
+}
+.low-temp {
+  opacity: 0.5;
+}
+.weather-temperature .active {
+  color: #000000;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-details {
+  padding-left: 80px;
+}
+#city {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#description::first-letter {
+  text-transform: capitalize;
+}

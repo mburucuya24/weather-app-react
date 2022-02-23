@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Cities from "./Cities.js";
+import Weather from "./Weather.js";
+import Forecast from "./Forecast.js";
+import axios from "axios";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
+            <hr />
+            <h1>The Weather</h1>
+            <hr />
+            <Cities />
+            <br />
+            <Weather />
+            <br />
+            <hr />
+            <Forecast />
+          </div>
+        </div>
+      </div>
+      <p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/mburucuya24/vanilla-weather-app"
           target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
+          Open-source code
         </a>
-      </header>
+        by Pauline Hwang
+      </p>
     </div>
   );
 }

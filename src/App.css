@@ -1,38 +1,32 @@
-.App {
+body {
+  background-color: #f9f7f1;
+  font-family: "Droid Serif", serif;
+}
+hr {
+  border-top: 3px solid;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 70px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  text-align: center;
+  font-size: smaller;
+  line-height: 8px;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-app-wrapper {
+  max-width: 1000px;
+  margin: 15px auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-app {
+  border: 1px solid;
+  border-radius: 10px;
+  display: block;
+  padding: 0 15px 15px;
 }
