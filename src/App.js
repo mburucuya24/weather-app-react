@@ -26,6 +26,7 @@ function App() {
         <a
           href="https://github.com/mburucuya24/weather-app-react"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
         </a>
